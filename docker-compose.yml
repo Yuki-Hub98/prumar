@@ -1,0 +1,14 @@
+services:
+  prumar:
+    container_name: prumar
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    networks:
+      - projeto_prumar
+
+networks:
+  projeto_prumar:
+    external: true

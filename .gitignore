@@ -1,0 +1,47 @@
+# 🔒 ENV
+.env
+.env.*
+!.env.example
+
+# 🐍 Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# 📦 Virtualenv
+venv/
+.venv/
+env/
+
+# 🧪 Logs
+*.log
+
+# 🧠 IDEs
+.vscode/
+.idea/
+
+# 🐳 Docker
+*.pid
+*.sock
+
+# 📁 Build / cache
+build/
+dist/
+*.egg-info/
+
+# 🔍 Pytest
+.pytest_cache/
+
+# 🔐 Secrets
+secrets.json
+
+# 📊 Langfuse (se gerar arquivos locais)
+.langfuse/
+
+# 🧠 Jupyter
+.ipynb_checkpoints/
+
+# 🪟 Windows
+Thumbs.db
